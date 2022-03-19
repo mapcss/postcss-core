@@ -1,0 +1,22 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
+  "name": "postcss_core",
+  "entry": "./mod.js",
+  "description": "Universal, Tiny postcss",
+  "homepage": "https://github.com/mapcss/postcss-core",
+  "files": [
+    "./**/*.ts",
+    "./**/*.js",
+    "./**/*.md"
+  ],
+  "version": "v1.0.0-beta.1",
+  "ignore": [
+    ".git",
+    "./node_modules/**/*",
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  "check": false,
+  "yes": true,
+  "unlisted": false
+}
