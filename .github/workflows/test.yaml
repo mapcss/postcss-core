@@ -23,10 +23,10 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
 
-      - name: Lint
-        run: |
-          deno fmt --check
-          deno lint
+      # - name: Lint
+      #   run: |
+      #     deno fmt --check
+      #     deno lint
 
   test:
     runs-on: ${{ matrix.os }}
